@@ -87,6 +87,68 @@ Float or floating point number is a number either positive or negative containin
 ##### Example: 
 - Str_1 = '123'
 - Str_2= "Virat"
+##### Common Python String Built-in Functions
+
+1. **`len()`**  
+   **Definition:** Returns the number of characters in a string.  
+   **Example:** `len("hello")` returns `5`.
+
+2. **`.lower()`**  
+   **Definition:** Converts all characters in the string to lowercase.  
+   **Example:** `"Hello".lower()` returns `"hello"`.
+
+3. **`.upper()`**  
+   **Definition:** Converts all characters in the string to uppercase.  
+   **Example:** `"Hello".upper()` returns `"HELLO"`.
+
+4. **`.strip()`**  
+   **Definition:** Removes leading and trailing whitespace from the string.  
+   **Example:** `" Hello ".strip()` returns `"Hello"`.
+
+5. **`.replace(old, new)`**  
+   **Definition:** Replaces all occurrences of the substring `old` with `new`.  
+   **Example:** `"Hello world".replace("world", "Python")` returns `"Hello Python"`.
+
+6. **`.find(sub)`**  
+   **Definition:** Returns the lowest index of the substring `sub` if found; otherwise, returns `-1`.  
+   **Example:** `"Hello".find("e")` returns `1`.
+
+7. **`.count(sub)`**  
+   **Definition:** Returns the number of occurrences of the substring `sub` in the string.  
+   **Example:** `"banana".count("a")` returns `3`.
+
+8. **`.split(separator)`**  
+   **Definition:** Splits the string into a list of substrings based on the specified separator. If no separator is specified, it splits on whitespace.  
+   **Example:** `"Hello, world".split(", ")` returns `["Hello", "world"]`.
+
+9. **`.join(iterable)`**  
+   **Definition:** Concatenates the elements of an iterable (like a list) into a single string, using the string as the separator.  
+   **Example:** `", ".join(["apple", "banana", "cherry"])` returns `"apple, banana, cherry"`.
+
+10. **`.startswith(prefix)`**  
+    **Definition:** Returns `True` if the string starts with the specified prefix; otherwise, returns `False`.  
+    **Example:** `"Hello".startswith("H")` returns `True`.
+
+11. **`.endswith(suffix)`**  
+    **Definition:** Returns `True` if the string ends with the specified suffix; otherwise, returns `False`.  
+    **Example:** `"Hello".endswith("o")` returns `True`.
+
+12. **`.capitalize()`**  
+    **Definition:** Capitalizes the first character of the string and makes all other characters lowercase.  
+    **Example:** `"hello world".capitalize()` returns `"Hello world"`.
+
+13. **`.title()`**  
+    **Definition:** Capitalizes the first character of each word in the string.  
+    **Example:** `"hello world".title()` returns `"Hello World"`.
+
+14. **`.swapcase()`**  
+    **Definition:** Swaps the case of all characters in the string (uppercase to lowercase and vice versa).  
+    **Example:** `"Hello".swapcase()` returns `"hELLO"`.
+
+15. **`.isalpha()`**  
+    **Definition:** Returns `True` if all characters in the string are alphabetic; otherwise, returns `False`.  
+    **Example:** `"Hello".isalpha()` returns `True`.
+
 
 
 
